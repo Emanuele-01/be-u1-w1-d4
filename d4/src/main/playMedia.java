@@ -7,7 +7,7 @@ public class playMedia extends multimedialElement{
     private int volume;
     private int luminosità;
 
-	public playMedia(String titolo, String nemeFileGeneral, int durata, int volume, int luminosità) {
+	public playMedia(String titolo, String nameFileGeneral, int durata, int volume, int luminosità) {
 		super(titolo);
 		this.nameFileGeneral = nameFileGeneral;
 		this.durata = durata;
